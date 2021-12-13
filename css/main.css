@@ -1,0 +1,204 @@
+@font-face {
+	font-family: "Acherus Feral";  
+	src: url("../fonts/Horizon\ Type\ -\ AcherusFeral-Light.otf.otf") format("truetype"); 
+	font-style: normal; 
+	font-weight: 300;
+    font-display: swap;
+}
+@font-face {
+	font-family: "Acherus Feral";  
+	src: url("../fonts/Horizon\ Type\ -\ AcherusFeral-Bold.otf") format("truetype"); 
+	font-style: normal; 
+	font-weight: 700;
+    font-display: swap;
+}
+
+:root {
+    --first-white-color:hsl(0, 0%, 100%);
+    --second-black-color: hsl(0, 0%, 0%);
+    --third-green-color: hsl(158, 77%, 61%);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+ul, ol, a, li {
+    list-style: none;
+    text-decoration: none !important;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+/* HEADER */
+.header {
+    background: url('../img/bg-hero.jpg') center / cover no-repeat;
+}
+.navbar {
+    padding-top: 44px !important;
+}
+.nav-link {
+    font-family: 'Acherus Feral';
+    font-weight: bold;
+    letter-spacing: 2%;
+    opacity: 45%;
+}
+.first_child {
+    opacity: 100%;
+}
+.nav-link:hover {
+    opacity: 100%;
+    transition: 0.3s ease;
+}
+.phone__img {
+    width: 14px;height: 14px;
+}
+.phone_number {
+    color: var(--first-white-color);
+    font-weight: 700;
+    font-family: 'Acherus Feral';
+    border: 2px solid white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+.phone_number:hover {
+    transform: translateY(-5px);
+    color: var(--first-white-color);
+}
+.language__btn {
+    color: var(--first-white-color);
+    font-weight: 700;
+    font-family: 'Acherus Feral';
+    transition: 0.3s ease;
+}
+.language__btn:hover {
+    opacity: 45%;
+    color: #fff;
+}
+
+.offer__wrapper {
+    margin-top: 120px;
+    padding-bottom: 90px;
+}
+.offer__title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Acherus Feral';
+    opacity: 60%;
+}
+.offer__description {
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'Acherus Feral';
+}
+.call-btn {
+    background: var(--third-green-color);
+    padding: 13px 78px;
+    box-shadow: 0px 0px 36px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Acherus Feral';
+}
+.offer__btn {
+    transition: 0.2s ease;
+}
+.offer__btn:hover {
+    transform: translateY(-5px);
+}
+
+.button__next {
+    padding-bottom: 36px;
+}
+.next-arrow {
+    margin: 0 auto;
+    position: relative;
+    font-size: 24px;
+    color: var(--second-black-color);
+    z-index: 1;
+}
+.next-arrow::after {
+    width: 44px;
+    height: 44px;
+    display: block;
+    content: '';
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    z-index: -1;
+    transition: 0.3s ease;
+    pointer-events: none;
+}
+.next-arrow:hover::after {
+    transform: translateY(25px);
+}
+/* ABOUT */
+.about__wrapper {
+    padding-top: 72px;
+    padding-bottom: 120px;
+}
+.about__title {
+    z-index: 1;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Acherus Feral';
+    color: var(--second-black-color);
+}
+.triangle__svg {
+    margin-right: -50px;
+    margin-top: -10px;
+    transform: rotate(60deg);
+}
+
+
+
+
+
+
+/* Button up */
+#button {
+    display: inline-block;
+    background-color: var(--purple-color);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
