@@ -142,6 +142,7 @@ img {
 .next-arrow:hover::after {
     transform: translateY(25px);
 }
+
 /* ABOUT */
 .about__wrapper {
     padding-top: 72px;
@@ -184,6 +185,10 @@ img {
     font-weight: 600;
 }
 
+/* Priority */
+.priority {
+    background: #FBF8FE;
+}
 
 
 
