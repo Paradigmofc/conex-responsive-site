@@ -159,6 +159,24 @@ img {
     margin-top: -10px;
     transform: rotate(60deg);
 }
+.about__subtitle-gradient {
+    background: linear-gradient(to right, #C146EC, #312DFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+.about__subtitle {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 21px;
+}
+.about__description {
+    font-weight: 400;
+    font-family: 'Inter';
+    font-size: 18px;
+}
+.bolder-text {
+    font-weight: 600;
+}
 
 
 
