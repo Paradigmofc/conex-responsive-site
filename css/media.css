@@ -5,11 +5,16 @@
     .lang-sec {
         justify-content: center;
     }
-}
-@media screen and (max-width: 575px) {
     .offer__description {
         font-size: 36px;
     }
+}
+@media screen and (max-width: 768px) {
+    .offer__description {
+        font-size: 36px;
+    }
+}    
+@media screen and (max-width: 575px) {
     .priority__block {
         width: 100%;
         margin: 0 auto;

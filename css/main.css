@@ -160,6 +160,9 @@ img {
     margin-top: -10px;
     transform: rotate(60deg);
 }
+.bigm {
+    margin-top: 72px !important;
+}
 .about__subtitle-gradient {
     background: linear-gradient(to right, #C146EC, #312DFF);
     -webkit-background-clip: text;
@@ -183,6 +186,10 @@ img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 600;
+}
+.about__img-second {
+    width: 400px;
+    height: 400px;
 }
 
 /* Priority */
@@ -211,6 +218,71 @@ img {
     width: 96px;
     margin: 0 auto;
 }
+/* SERVICES */
+.services {
+    background: url('../img/pngwing-circles.png') top left no-repeat;
+    /*  */
+}
+.services__wrapper {
+    padding-top: 116px;
+    padding-bottom: 72px;
+    background: url('..//img/geometry.png') top right no-repeat;
+}
+.services__title {
+    z-index: 1;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Acherus Feral';
+    color: var(--second-black-color);
+}
+.services__description {
+    margin-top: 66px;
+    font-family: 'Inter';
+}
+.exchange__block {
+    background: #FBF8FE;
+    border-radius: 12px;
+}
+.exchange__wrapper {
+    padding-top: 26px;
+    padding-bottom: 36px;
+    padding-left: 36px;
+}
+.exchange__description {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 13px;
+    opacity: 30%;
+}
+.exchange__title {
+    font-family: 'Acherus Feral';
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--second-black-color);
+    margin-left: 36px;
+}
+.money__icon {
+    width: 44px;
+    height: 44px;
+}
+.card {
+    background: #FBF8FE !important;
+    border-radius: 12px;
+}
+.bit__img {
+    width: 44px;
+}
+.bit__description {
+    font-family: 'Acherus Feral';
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--second-black-color);
+    margin-left: 36px;
+}
+
+
+
+
 
 
 /* Button up */
