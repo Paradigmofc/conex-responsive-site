@@ -10,4 +10,8 @@
     .offer__description {
         font-size: 36px;
     }
+    .priority__block {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
