@@ -177,7 +177,12 @@ img {
 .bolder-text {
     font-weight: 600;
 }
-
+.gradient-text {
+    background: linear-gradient(to right, #C146EC, #312DFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
 
 
 
