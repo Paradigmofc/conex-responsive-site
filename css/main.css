@@ -279,16 +279,105 @@ img {
     color: var(--second-black-color);
     margin-left: 36px;
 }
-
-
-
-
+/* CONTACTS */
+.contact {
+    background: url('../img/bg-contacts.jpg') center / cover no-repeat;
+}
+.contact__wrapper {
+    padding: 72px 0;
+}
+.contact__title-block {
+    margin-bottom: 72px;
+}
+.contact__title {
+    z-index: 1;
+    font-size: 36px;
+    font-family: 'Acherus Feral';
+    font-weight: 700;
+    color: var(--first-white-color);
+}
+.form__block form {
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 18px;
+}
+.form__block input[type=text] {
+    background: #FBF8FE;
+    border-radius: 8px;
+    border: 0;
+}
+.form__block input[type=email] {
+    background: #FBF8FE;
+    border-radius: 8px;
+    border: 0;
+}
+.form-control {
+    padding: 17px 0 16px 24px !important;
+}
+.textarea__form {
+    background: #FBF8FE;
+    border-radius: 8px;
+    border: 0;
+    padding-top: 17px;
+    padding-left: 24px;
+}
+.map__box {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 36px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 400;
+    padding: 5px;
+    height: 100%;
+}
+.adress__box {
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    padding-right: 62px;
+}
+.contact__adress {
+    font-size: 18px;
+    font-family: 'Acherus Feral';
+    font-weight: 700;
+}
+.contact__phone {
+    margin-bottom: 0px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+}
+.contact__tg {
+    margin-bottom: 0px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+}
+.contact__icon {
+    width: 14px;
+}
+.btn__form {
+    font-family: 'Acherus Feral';
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--first-white-color);
+    background: #50E8B1;
+    border-radius: 8px;
+    padding: 12px 0;
+    width: 100%;
+    display: block;
+    border: none;
+}
+.contact__bit {
+    width: 16px;
+}
 
 
 /* Button up */
 #button {
     display: inline-block;
-    background-color: var(--purple-color);
+    background-color: var(--third-green-color);
     width: 50px;
     height: 50px;
     text-align: center;
