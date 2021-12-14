@@ -24,10 +24,16 @@
         margin-right: 0 !important;
     }
     .lang-sec {
-        justify-content: center;
+        justify-content: center !important;
     }
-    .offer__description {
-        font-size: 36px;
+    .offer__wrapper {
+        margin-top: 40px;
+    }
+    .offer__img {
+        width: 400px;
+        top: -200px;
+        position: absolute;
+        left: -81px;
     }
     .about__text-block {
         text-align: center;
@@ -40,14 +46,13 @@
     }
 }
 @media screen and (max-width: 767px) {
-    .offer__description {
-        font-size: 40px;
-    }
     .offer__img {
         display: none;
     }
+    .offer__description {
+        font-size: 36px;
+    }
     .offer__wrapper {
-        margin-top: 40px;
         text-align: center;
     }
     .about__text-block {

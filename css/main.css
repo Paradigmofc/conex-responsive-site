@@ -37,6 +37,9 @@ img {
 }
 
 /* HEADER */
+.header {
+    overflow: hidden;
+}
 .header__background {
     background: url('../img/bg-hero.jpg') center / cover no-repeat;
 }
@@ -99,6 +102,9 @@ img {
     font-size: 64px;
     font-weight: bold;
     font-family: 'Acherus Feral';
+}
+.offer__img-block {
+    position: relative;
 }
 .call-btn {
     background: var(--third-green-color);
@@ -324,17 +330,6 @@ img {
     width: 100%;
     margin-bottom: 0;
 }
-.contact__bit {
-    margin-right: 31px;
-}
-.contact__bit:last-child {
-    margin-right: 0;
-}
-.font__icon {
-    font-size: 18px;
-    color: var(--second-black-color);
-    opacity: 30%;
-}
 /* CONTACTS */
 .contact {
     background: url('../img/bg-contacts.jpg') center / cover no-repeat;
@@ -417,7 +412,7 @@ img {
     font-size: 14px;
 }
 .contact__icon {
-    width: 14px;
+    width: 15px;
 }
 .btn__form {
     font-family: 'Acherus Feral';
@@ -436,7 +431,19 @@ img {
     transform: scale(1.03);
 }
 .contact__bit {
-    width: 16px;
+    margin-right: 31px;
+}
+.contact__bit:last-child {
+    margin-right: 0;
+}
+.font__icon {
+    font-size: 18px;
+    color: var(--second-black-color);
+    opacity: 30%;
+    transition: 0.5s ease;
+}
+.font__icon:hover {
+    opacity: 100%;
 }
 /* FOOTER */
 .footer__wrapper {
