@@ -23,14 +23,15 @@
 <body>
     <!-- =============== HEADER ================== -->
     <header id="header" class="header">
-        <a id="button" class="show"></a>
+        <div class="header__background">
+            <a id="button" class="show"></a>
         <div class="container">
             <div class="row justify-content-center">
-                <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
                     <a class="navbar-brand d-flex align-items-center" href="#">
                         <img src="img/logo.png" alt="Image" class="logo__header">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -59,7 +60,7 @@
             <div class="offer">
                 <div class="offer__wrapper">       
                     <div class="row justify-content-center align-items-center">
-                        <div class="col-xs-12 col-sm-8 col-md-6 col-lg-8">
+                        <div class="col-12 col-md-6 col-lg-8">
                             <h1 class="offer__title mb-4 text-white">
                                 Conex Crypto —
                             </h1>
@@ -84,9 +85,11 @@
                 </div>
             </div>
         </div>
+        </div>
     </header>
+    <!-- =============== MAIN ==================== -->
     <main class="main" id="main">
-        <!-- ============== ABOUT SECTION ================= -->
+        <!-- ================= ABOUT SECTION ================= -->
         <div id="about" class="about">
             <div class="container">
                 <div class="about__wrapper">
@@ -130,7 +133,7 @@
                                     <img src="img/cryptocurrency-token.png" alt="Cryprocurrency token" class="about__img-second">
                                 </div>
                            </div>
-                           <div class="col-12 col-md-10 col-lg-5">
+                           <div class="col-12 col-md-10 col-lg-5 about__text-block">
                                <p class="about__description mb-3">
                                 Мы являемся полностью частной, политически обособленной компанией, в нашей команде дружно уживаются приверженцы совершенно разных политических взглядов, но нас <span class="bolder-text">объединяют</span> и завораживают возможности для <span class="bolder-text">развития</span>, которые открывает перед человечеством 
                                 технология <span class="gradient-text">Blockchain!</span>
@@ -145,12 +148,12 @@
                 </div>
             </div>
         </div>
-        <!-- ==================== PRIORITIES SECTION ====================== -->
+        <!-- ================= PRIORITIES SECTION ====================== -->
         <div class="priority">
            <div class="priority__wrapper">
                <div class="container">
                    <div class="row">
-                        <div class="col-lg-5">
+                        <div class="col col-lg-5">
                             <div class="priority__title-block d-flex">
                                 <svg class="triangle__svg" width="69" height="68" viewBox="0 0 69 68" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M12.9168 9.01726C15.3077 0.0944149 26.4613 -2.89417 32.9932 3.6378L64.8366 35.4812C71.3686 42.0131 68.38 53.1667 59.4572 55.5575L15.9583 67.213C7.03547 69.6039 -1.12949 61.439 1.26137 52.5161L12.9168 9.01726Z" fill="#AF90FF"/>
@@ -221,8 +224,8 @@
                             Услуги по криптообмену и не только
                         </h1>
                     </div>
-                    <div class="row">
-                        <div class="col col-lg-6">
+                    <div class="row service__center flex-column flex-md-row">
+                        <div class="col col-lg-6 service__order">
                             <p class="services__description">
                                 Мы занимаемся <span class="bolder-text">покупкой и продажей</span> криптовалют <span class="bolder-text">за наличные</span> в различных объемах, проводим сделки с наличными в офисе Тбилиси или отделениях банков/сервисах по обмену валют.
                             </p>
@@ -237,7 +240,7 @@
                                     <img src="img/bank-of-georgia.png" alt="Bank logotype" class="bank__logo">
                                 </div>
                             </div>
-                            <p class="services__description col-9">
+                            <p class="services__description col col-lg-9">
                                 Можем пополнять ваши счета внесением наличных через банкомат <span class="gradient-text">Cash in.</span>
                             </p>
                         </div>
@@ -335,10 +338,10 @@
                             <div class="form__block">
                                 <form action="#">
                                     <div class="form__inputs d-flex"> 
-                                        <div class="col-xs-12 col-md-6 mb-3 me-3">
+                                        <div class="col-12 col-sm-6 col-md-6 mb-3 me-3">
                                             <input class="form-control" type="text" name="name" placeholder="Вас зовут...">
                                         </div>
-                                        <div class="col-xs-12 col-md-6 mb-3">
+                                        <div class="col-12 col-sm-6 col-md-6 mb-3">
                                             <input class="form-control" type="email" name="email" placeholder="Ваш E-Mail...">
                                         </div>
                                     </div>
@@ -396,7 +399,7 @@
                 </div>
             </div>
         </div>
-        <!-- FOOTER -->
+        <!-- ================= FOOTER  =================== -->
         <footer class="footer" id="footer">
             <div class="container">
                 <div class="footer__wrapper">

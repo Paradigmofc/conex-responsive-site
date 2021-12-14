@@ -37,12 +37,15 @@ img {
 }
 
 /* HEADER */
-.header {
+.header__background {
     background: url('../img/bg-hero.jpg') center / cover no-repeat;
 }
 .navbar {
     padding-top: 44px !important;
 }
+.navbar-toggler {
+    border: none;
+} 
 .nav-link {
     font-family: 'Acherus Feral';
     font-weight: bold;
@@ -221,7 +224,6 @@ img {
 /* SERVICES */
 .services {
     background: url('../img/pngwing-circles.png') top left no-repeat;
-    /*  */
 }
 .services__wrapper {
     padding-top: 116px;
