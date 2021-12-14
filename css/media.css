@@ -29,6 +29,9 @@
     .form__spacing {
         margin-bottom: 36px;
     }
+    .credits__block {
+        text-align: center;
+    }
 }
 @media screen and (max-width: 768px) {
     .offer__description {
@@ -42,5 +45,17 @@
     }
     .map__box {
         flex-direction: column;
+    }   
+    .footer__nav {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+    .foot__order {
+        order: 3;
+    }
+    .footer__menu {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 !important;
     }
 }

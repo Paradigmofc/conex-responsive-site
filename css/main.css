@@ -372,6 +372,40 @@ img {
 .contact__bit {
     width: 16px;
 }
+/* FOOTER */
+.footer__wrapper {
+    padding: 24px 0;
+}
+.footer__nav {
+    margin-right: 44px;
+}
+.footer__nav:last-child {
+    margin-right: 0;
+}
+.footer__link {
+    font-family: 'Acherus Feral';
+    font-weight: 700;
+    color: var(--second-black-color);
+    opacity: 30%;
+}
+.logo__footer {
+    width: 120px;
+}
+.footer__credits {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;    
+    color: var(--second-black-color);
+    opacity: 30%;
+}
+.logo__footer {
+    margin: 0 auto;
+}
+.credits__block {
+    text-align: right;
+}
+
+
 
 
 /* Button up */
