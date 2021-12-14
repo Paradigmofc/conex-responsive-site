@@ -324,6 +324,17 @@ img {
     width: 100%;
     margin-bottom: 0;
 }
+.contact__bit {
+    margin-right: 32px;
+}
+.contact__bit:last-child {
+    margin-right: 0;
+}
+.font__icon {
+    font-size: 18px;
+    color: var(--second-black-color);
+    opacity: 30%;
+}
 /* CONTACTS */
 .contact {
     background: url('../img/bg-contacts.jpg') center / cover no-repeat;
