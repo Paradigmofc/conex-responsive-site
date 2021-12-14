@@ -10,7 +10,7 @@
         height: 100%;
     }
     .priority__block {
-        width: 100%;
+        width: 100% !important;
     }
     .adress__box {
         padding-right: 0;
@@ -19,6 +19,9 @@
 @media screen and (max-width: 991px) {
     .navbar-nav {
         align-items: center;
+    }
+    .nav-link.me-4 {
+        margin-right: 0 !important;
     }
     .lang-sec {
         justify-content: center;
@@ -36,7 +39,7 @@
         text-align: center;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .offer__description {
         font-size: 40px;
     }
@@ -80,9 +83,6 @@
     }
     .offer__description {
         font-size: 30px;
-    }
-    .nav-link.me-4 {
-        margin-right: 0 !important;
     }
     .about__title-block {
         justify-content: center;

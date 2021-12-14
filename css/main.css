@@ -126,6 +126,10 @@ img {
     font-size: 24px;
     color: var(--second-black-color);
     z-index: 1;
+    transition: 0.3s ease;
+}
+.next-arrow:hover {
+    transform: translateY(25px);
 }
 .next-arrow::after {
     width: 44px;
@@ -141,9 +145,6 @@ img {
     z-index: -1;
     transition: 0.3s ease;
     pointer-events: none;
-}
-.next-arrow:hover::after {
-    transform: translateY(25px);
 }
 
 /* ABOUT */
@@ -221,6 +222,9 @@ img {
     width: 96px;
     margin: 0 auto;
 }
+.priority__badge-description {
+    font-size: 18px;
+}
 /* SERVICES */
 .services {
     background: url('../img/pngwing-circles.png') top left no-repeat;
@@ -270,6 +274,7 @@ img {
 .card {
     background: #FBF8FE !important;
     border-radius: 12px;
+    height: 96px;
 }
 .bit__img {
     width: 44px;
@@ -280,6 +285,8 @@ img {
     font-size: 18px;
     color: var(--second-black-color);
     margin-left: 36px;
+    width: 100%;
+    margin-bottom: 0;
 }
 /* CONTACTS */
 .contact {
@@ -322,6 +329,10 @@ img {
     border: 0;
     padding-top: 17px;
     padding-left: 24px;
+    border: none;
+    background: #FBF8FE;
+    border-radius: 8px;
+    width: 100%;
 }
 .map__box {
     background: #FFFFFF;
@@ -370,6 +381,10 @@ img {
     width: 100%;
     display: block;
     border: none;
+    transition: 0.3s ease;
+}
+.btn__form:hover {
+    transform: translateY(5px);
 }
 .contact__bit {
     width: 16px;
@@ -406,7 +421,12 @@ img {
 .credits__block {
     text-align: right;
 }
-
+.link__credits {
+    font-size: 14px;
+    color: var(--second-black-color);
+    font-family: 'Inter';
+    font-weight: 400;
+}
 
 
 
