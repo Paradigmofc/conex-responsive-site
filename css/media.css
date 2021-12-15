@@ -13,7 +13,11 @@
         width: 100% !important;
     }
     .adress__box {
+        width: 40%;
         padding-right: 0;
+    }
+    .contact__bit {
+        margin-right: 16px;
     }
 }
 @media screen and (max-width: 991px) {
@@ -84,8 +88,18 @@
     .form__spacing {
         margin-bottom: 36px;
     }
+    .adress__box {
+        width: 100%;
+    }
+    .contact__bit {
+        margin-right: 30px;
+    }
     .credits__block {
         text-align: center;
+    }
+    .triangle__svg {
+        margin-right: -42px;
+        margin-top: -60px;
     }
 }
 @media screen and (max-width: 767px) {

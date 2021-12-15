@@ -315,7 +315,7 @@ img {
 .card {
     background: #FBF8FE !important;
     border-radius: 12px !important;
-    height: 96px;
+    height: 100%;
 }
 .bit__img {
     width: 44px;
