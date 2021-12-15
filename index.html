@@ -338,17 +338,17 @@
                     <div class="row flex-column flex-lg-row">
                         <div class="col-xs-12 col-lg-6 form__spacing">
                             <div class="form__block">
-                                <form action="#">
+                                <form action="mail.php" id="connection" method="POST">
                                     <div class="form__inputs d-flex"> 
                                         <div class="col-12 col-sm-6 col-md-6 mb-3 me-3">
-                                            <input class="form-control" type="text" name="name" placeholder="Вас зовут...">
+                                            <input class="form-control _req" type="text" name="user_name" placeholder="Вас зовут...">
                                         </div>
                                         <div class="col-12 col-sm-6 col-md-6 mb-3">
-                                            <input class="form-control" type="email" name="email" placeholder="Ваш E-Mail...">
+                                            <input class="form-control _req _email" type="email" name="user_email" placeholder="Ваш E-Mail...">
                                         </div>
                                     </div>
                                     <div class="mb-3">
-                                        <textarea class="form-control textarea__form" placeholder="Короткое сообщение..." name="message" id="messageFormControl" rows="3"></textarea>
+                                        <textarea class="form-control textarea__form" placeholder="Короткое сообщение..." name="user_text" id="messageFormControl" rows="3"></textarea>
                                     </div>
                                     <div class="col-12">
                                         <button type="submit" class="btn__form text-center">
