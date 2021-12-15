@@ -377,6 +377,7 @@ img {
     background: #FBF8FE;
     border-radius: 8px;
     width: 100%;
+    resize: none;
 }
 .map__box {
     background: #FFFFFF;
