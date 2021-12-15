@@ -38,29 +38,26 @@
     .about__text-block {
         text-align: center;
     }
-    .form__spacing {
-        margin-bottom: 36px;
+    .about__description {
+        width: 100%;
     }
-    .credits__block {
-        text-align: center;
+    .more__width {
+        width: 500px;
     }
-}
-@media screen and (max-width: 767px) {
-    .offer__img {
-        display: none;
+    .more__width2 {
+        width: 575px !important;
     }
-    .offer__description {
-        font-size: 36px;
+    .sec__about-description {
+        margin: 0 auto;
+        width: 88%;
+        margin-top: 24px;
     }
-    .offer__wrapper {
-        text-align: center;
+    .priority__badge-block::after {
+        top: -50%;
+        left: 0;
     }
-    .about__text-block {
-        text-align: left;
-    }
-    .bigm {
-        order: 2;
-        margin-top: 44px !important;
+    .priority__block {
+        margin-top: 72px;
     }
     .service__order {
         order: 2;
@@ -78,7 +75,36 @@
     .service__center {
         text-align: center;
     }
+    .services__description {
+        width: 100%;
+    }
+    .blockchain-center {
+        margin: 0 auto;
+    }
+    .form__spacing {
+        margin-bottom: 36px;
+    }
+    .credits__block {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 767px) {
+    .offer__img {
+        top: -400px;
+        left: 211px;
+    }
+    .about__image-block2 {
+        width: 256px;
+    }
 }   
+@media screen and (max-width: 650px) {
+    .more__width {
+        width: 425px;
+    }
+    .more__width2 {
+        width: 450px !important;
+    }
+}
 @media screen and (max-width: 575px) {
     .header__background {
         background: url('../img/bg-hero-mobile.jpg') center / cover no-repeat;
@@ -86,8 +112,24 @@
     .navbar {
         padding-top: 35px !important;
     }
+    .offer__img {
+        display: none;
+    }
+    .offer__description {
+        font-size: 36px;
+    }
+    .offer__wrapper {
+        text-align: center;
+    }
     .offer__description {
         font-size: 30px;
+    }
+    .bigm {
+        order: 2;
+        margin-top: 44px !important;
+    }
+    .about__text-block {
+        text-align: left;
     }
     .about__title-block {
         justify-content: center;
@@ -97,12 +139,29 @@
     .about__title {
         font-size: 24px;
     }
+    .about__image-block2  {
+        margin: 0 auto;
+        margin-right: 0;
+    }
+    .about__image-block2.me-5 {
+        margin-right: auto !important;
+    }
     .about__description {
         font-size: 16px;
+    }
+    .more__width {
+        width: 100%;
+    }
+    .more__width2 {
+        width: 100% !important;
+    }
+    .sec__about-description {
+        width: 100% !important;
     }
     .priority__block {
         width: 100%;
         margin: 0 auto;
+        margin-top: 64px;
     }
     .priority__title-block {
         position: relative;
@@ -121,11 +180,20 @@
         width: 250px;
         margin: 0 auto; 
     }
+    .card {
+        height: 100%;
+    }
+    .card-body {
+        align-items: flex-start !important;
+    }
     .logo__banks {
         justify-content: center;
     }
     .contact {
-        background: url('../img/bg-contacts-mobile.jpg') center  no-repeat;
+        background: url('../img/bg-contacts-mobile.jpg') center / cover no-repeat;
+    }
+    .contact__wrapper {
+        padding-bottom: 0;
     }
     .contact__title-block {
         margin-bottom: 24px;
@@ -152,6 +220,8 @@
     .map__box iframe {
         margin: 0 auto;
         width: 100%;
+        order: 2;
+        margin-top: 18px;
     }
     .footer__nav {
         margin-right: 0;
