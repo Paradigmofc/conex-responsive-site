@@ -145,6 +145,9 @@
     .more__width2 {
         width: 450px !important;
     }
+    .bit__description {
+        width: 100%;   
+    }
     .shop__menu li {
         justify-content: start !important;
     }

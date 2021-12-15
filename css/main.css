@@ -327,9 +327,12 @@ img {
     font-size: 18px;
     color: var(--second-black-color);
     margin-left: 36px;
-    width: 100%;
+    width: 396px;
     margin-bottom: 0;
 }
+/* .bit__description:first-child {
+    width: 396px;
+} */
 /* CONTACTS */
 .contact {
     background: url('../img/bg-contacts.jpg') center / cover no-repeat;
