@@ -19,6 +19,9 @@
     .contact__bit {
         margin-right: 16px;
     }
+    .shop__map iframe {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 991px) {
     .navbar-nav {
@@ -101,6 +104,30 @@
         margin-right: -42px;
         margin-top: -60px;
     }
+    .shop {
+        background: url('../img/bg-shop-tablet.jpg') top no-repeat;
+    }
+    .shop__wrapper {
+        padding-top: 64px;
+    }
+    .shop__menu li {
+        justify-content: center;
+    }
+    .shop__coins {
+        text-align: center;
+    }
+    .first__shop-block {
+        padding-top: 0 !important;
+    }
+    .second__shop-block {
+        margin-top: 0 !important;
+    }
+    .shop__map-block {
+        padding-top: 72px;
+    }
+    .second__shop-img {
+        display: none;
+    }
 }
 @media screen and (max-width: 767px) {
     .offer__img {
@@ -117,6 +144,19 @@
     }
     .more__width2 {
         width: 450px !important;
+    }
+    .shop__menu li {
+        justify-content: start !important;
+    }
+    .shop__title {
+        font-size: 35px;
+        width: 290px;
+        text-align: center;
+        line-height: 49px;
+        margin: 0 auto;
+    }
+    .shop__description {
+        width: 100%;
     }
 }
 @media screen and (max-width: 575px) {
@@ -236,6 +276,72 @@
         width: 100%;
         order: 2;
         margin-top: 18px;
+    }
+    .shop {
+        background: none;
+    }
+    .first__shop-block {
+        padding: 0 !important;
+    }
+    .cryptomoney__shop {
+        display: block;
+        width: 290px;
+        margin: 0 auto;
+        margin-top: 36px;
+        margin-bottom: 24px;
+    }
+    .trezor__img {
+        width: 290px;
+        margin: 0 auto;
+    }
+    .shop__description {
+        font-size: 16px;
+        width: 100%;
+    }
+    .shop__list-title {
+        width: 290px;
+    }
+    .shop__menu {
+        width: 290px;
+    }
+    .shop__li {
+        align-content: center;
+        font-size: 16px;
+        width: 100%;
+    }
+    .shop__li:last-child {
+        align-items: start;
+    }
+    .shop__li-img {
+        width: 24px;
+        margin-right: 12px;
+    }
+    .shop__coins {
+        text-align: left;
+        width: 290px;
+    }
+    .shop__coins-title {
+        font-size: 16px;
+    }
+    .shop__coins-block {
+        gap: 24px;
+    }
+    .shop__ssd-img {
+        display: block;
+        margin-top: 44px;
+    }
+    .ssd__img {
+        width: 290px;
+    }
+    .second__shop-title {
+        width: 100%;
+    }
+    .second__shop-description {
+        width: 100%;
+        font-size: 16px;
+    }
+    .shop__map-title {
+        font-size: 24px;
     }
     .footer__nav {
         margin-right: 0;

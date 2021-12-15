@@ -445,6 +445,132 @@ img {
 .font__icon:hover {
     opacity: 100%;
 }
+/* SHOP */
+.shop {
+    background: url('../img/bg-shop.jpg') top no-repeat;
+    overflow: hidden;
+}
+.shop__wrapper {
+    padding-top: 100px;
+    padding-bottom: 72px;
+}
+.shop__title {
+    font-size: 64px;
+    font-family: 'Acherus Feral';
+    font-weight: 700;
+    color: var(--second-black-color);
+    margin-bottom: 64px;
+    width: 600px;
+}
+
+.cryptomoney__shop {
+    display: none;
+}
+.shop__subtitle {
+    font-size: 21px;
+    font-family: 'Inter';
+    font-weight: 700;
+    background: linear-gradient(to right, #C146EC, #312DFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.shop__description {
+    width: 600px;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+.first__shop-block {
+    padding: 110px 0 !important;
+}
+.trezor__img {
+    width: 370px;
+}
+.shop__list-title {
+    font-size: 21px;
+    font-family: 'Inter';
+    font-weight: 700;
+    background: linear-gradient(to right, #C146EC, #312DFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
+}
+.shop__li-img {
+    width: 28px;
+    margin-right: 16px;
+}
+.shop__li {
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.shop__coins-title {
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+.shop__coins-block {
+    margin-top: 36px;
+}
+.coins__img {
+    width: 36px;
+}
+.shop__ssd-img {
+    display: none;
+}
+.second__shop-title {
+    font-size: 21px;
+    font-family: 'Inter';
+    font-weight: 700;
+    background: linear-gradient(to right, #C146EC, #312DFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.second__shop-description {
+    width: 570px;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-size: 18px;
+}
+.second__shop-img {
+    width: 370px;
+}
+.shop__map-block {
+    padding-top: 44px !important;
+    text-align: center;
+}
+.shop__map-title {
+    font-size: 36px;
+    font-family: 'Acherus Feral';
+    font-weight: 700;
+    margin-bottom: 44px;
+}
+.shop__map {
+    margin-bottom: 44px;
+}
+.shop__map iframe {
+    border-radius: 12px;
+}
+.shop__btn {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Acherus Feral';
+    background: #50E8B1;
+    box-shadow: 0px 0px 36px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    height: 100%;
+    padding: 12px 0;
+    color: var(--first-white-color);
+    display: block;
+    transition: 0.5s ease;
+}
+.shop__btn:hover {
+    color: var(--first-white-color);
+    transform: scale(1.03);
+}
+
+
 /* FOOTER */
 .footer__wrapper {
     padding: 24px 0;
